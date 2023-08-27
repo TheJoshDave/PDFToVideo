@@ -20,13 +20,12 @@ def extract_text_from_pdf(pdf_file: str) -> [str]:
 if __name__ == '__main__':
     pdf_filepath = str(sys.argv[1])  # input_pdf_filepath
     txt_filepath = str(sys.argv[2])  # output_txt_folder
-    print("potato")
     extracted_text = extract_text_from_pdf(pdf_filepath)  # gets array of page's text from pdf
     count = 1
     for page in extracted_text:
         # spacing:
-        page = re.sub(r"\.+", r".", page)  # removes double periods
         page = re.sub(r" +\.", r".", page)  # removes space before periods
+        page = re.sub(r"\.+", r".", page)  # removes double periods
         page = re.sub(r"—", r"•", page)  # dashed lists' to bullet point lists
         page = re.sub(r" *•+ *", r"• ", page)  # handles most bullet point lists' spacing
         page = re.sub(r" +", r" ", page)  # removes double spaces
