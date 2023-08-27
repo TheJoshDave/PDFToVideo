@@ -31,18 +31,22 @@ if __name__ == '__main__':
         page = re.sub(r" +", r" ", page)  # removes double spaces
 
         # lines:
-        page = re.sub(r"(\S)• ", r"\1\n• ", page)  # handles most bullet point lists' taking one line
-        page = re.sub(r"(\S)— ", r"\1\n• ", page)  # handles most dashed lists' taking one line
+        #page = re.sub(r"(\S)— ", r"\1\n• ", page)  # handles most dashed lists' taking one line
         page = re.sub(r"\n\s*\n", r"\n", page)  # removes double newline
         page = re.sub(r" \n(.)", r" \1", page)  # breaks in text
-        page = re.sub(r"/\n(.)", r" \1", page)  # removes / 'slash' breaks in text
-        page = re.sub(r"(.)\n/", r"\1 ", page)  # removes / 'slash' breaks in text
-        page = re.sub(r"\n\s*\n", r"\n", page)  # removes double newline
+        #page = re.sub(r" ([A-Z \-:'’]{3,} )", r"\n\1\n", page)  # capital letters are assumed to be titles
+        #page = re.sub(r"/\n(.)", r" \1", page)  # removes / 'slash' breaks in text
+        #page = re.sub(r"(.)\n/", r"\1 ", page)  # removes / 'slash' breaks in text
+        #page = re.sub(r"\n\s*\n", r"\n", page)  # removes double newline
+        page = re.sub(r"(.)•", r"\1\n• ", page)  # handles most bullet point lists' taking one line
+        page = re.sub(r"(\. \d+) ", r"\1\n", page)  # handles most numbered toc' taking one line
+
+
         page = re.sub(r"\n\Z", r"", page)  # removes newline at the end of page
+
 
         os.makedirs(txt_filepath, exist_ok=True)  # makes sure there is a folder for the text files
         with open(txt_filepath + str(count).rjust(3, "0") + ".txt", "w", encoding='utf-8') as f:
             f.write(page)  # makes txt file for each page
-        print(page)
         print("Page text formatted: " + str(count).rjust(3, "0"))
         count += 1
