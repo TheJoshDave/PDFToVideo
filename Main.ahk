@@ -1,6 +1,5 @@
 ﻿#SingleInstance Force
 SetTitleMatchMode, 2
-
 Global VideoFolder := A_ScriptDir "\Video\"
 Global AudioFolder := A_ScriptDir "\Audio\"
 Global ImagesFolder := A_ScriptDir "\Images\"
@@ -9,42 +8,23 @@ Global ShortcutsFolder := A_ScriptDir "\Shortcuts\"
 Global ApplicationsFolder := A_ScriptDir "\Applications\"
 Global BatchFileTXT := A_ScriptDir "\BatchList.txt"
 Global SettingsArray := {AudioSpeed : 10} ; SettingsArray["AudioSpeed"]
-
-Global pythonFolder := "C:\Users\Dave\Desktop\Programming\Code\Python\PDFToConverter\"
-; python C:\Users\Dave\Desktop\Programming\Code\Python\PDFToConverter\PDFToImages.py <pdf_filepath> <images_folder_filepath>
-; python C:\Users\Dave\Desktop\Programming\Code\Python\PDFToConverter\PDFToTXT.py <pdf_filepath> <txt_output_filepath>
-; python C:\Users\Dave\Desktop\Programming\Code\Python\PDFToConverter\AudioPlusImagesToVideo.py <images_folder_filepath> <audio_folder_filepath> <video_folder_filepath>
-#Include TextToAudio.ahk
-#Include MakeDescription.ahk
-#Include GetFileData.ahk
+Global pythonFolder := "C:\Users\Dave\Desktop\Programming\GitHub\PDFToVideo\Scripts\"
+#Include C:\Users\Dave\Desktop\Programming\GitHub\PDFToVideo\Scripts\TextToAudio.ahk
+#Include C:\Users\Dave\Desktop\Programming\GitHub\PDFToVideo\Scripts\MakeDescription.ahk
+#Include C:\Users\Dave\Desktop\Programming\GitHub\PDFToVideo\Scripts\GetFileData.ahk
 return
-/*
-------------------------------------------------------------------------------------------------------------------------------------------------------
-Outline:
-Open main
-	Run Program Beef or choose program inputs
 
-Program Beef:
-	Choose PDF [step 1] (root folder from parent folder)
-		Make PNG's from PDF pages with python
-		Make TXT from PDF text with python
-Human formats text
-	Choose TXT [step 3] (root folder from second parent folder)
-		Make audio from TXT with Balabolka
-		Make mp4 from audio + PNG's with python
-	Choose mp4 [step 4] (root folder from second parent folder)
-		Make description copypastas from user inputed values
-------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
-
-;<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 F2::Pause
 XButton1::
 	SetTimer, ChangeButtonNames, 50 
 	MsgBox, 3, Choose Or Run, Would you like to choose a file or run the batch list?
-	IfMsgBox Yes
-		MakeBatchTXT()
-	IfMsgBox No
+	IfMsgBox Yes ; Makes batch TXT
+	{
+        FileSelectFile, FilePath, 3, %A_MyDocuments%, Choose File, (*.pdf; *.txt; *.mp4)
+        FileAppend, % FilePath "`n", % BatchFileTXT
+    }
+	IfMsgBox No ; Executes batch TXT
 	{
 		Loop, Read, % BatchFileTXT
 		{
@@ -53,12 +33,18 @@ XButton1::
 		FileDelete, % BatchFileTXT
 	}
 return
-;<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+XButton2::
+	SetTimer, ChangeButtonNames2, 50
+	MsgBox, 1, Easy format application, Please select the root folder.
+	IfMsgBox Ok ; Makes batch TXT
+	{
+        FileSelectFolder, Path, %A_MyDocuments%, 3, Choose Folder
+        MakeWorkingFolder(Path)
+        EasyFormatApplication()
+    }
+return
+;<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-MakeBatchTXT() {
-	FileSelectFile, FilePath, 3, %A_MyDocuments%, Choose File, (*.pdf; *.txt; *.mp4)
-	FileAppend, % FilePath "`n", % BatchFileTXT
-}
 RunWithFilePath(FilePath) {
 	MakeWorkingFolder(ParentFolder(ParentFolder(FilePath)))
 	if InStr(FilePath, ".pdf")
@@ -79,25 +65,53 @@ MakeWorkingFolder(Folder) {
 ParentFolder(Path) {
 	return SubStr(Path, 1, InStr(SubStr(Path,1,-1), "\", 0, 0)-1)
 }
-ChangeButtonNames: 
+ChangeButtonNames:
+    ; waits for window
 	IfWinNotExist, Choose Or Run
-		return  ; Keep waiting for window
-	SetTimer, ChangeButtonNames, Off ; stop waiting for window
+		return
+	SetTimer, ChangeButtonNames, Off
+
 	WinActivate ; set window to front
 	ControlSetText, Button1, &Choose File ; change button name
 	ControlSetText, Button2, &Run ; change button name
 return
+ChangeButtonNames2:
+    ; waits for window
+	IfWinNotExist, Easy format application
+		return
+	SetTimer, ChangeButtonNames2, Off
+
+	WinActivate ; set window to front
+	ControlSetText, Button1, &Choose Folder ; change button name
+return
 
 PDFToUnformated(FilePath) {
-	MakeWorkingFolder(ParentFolder(FilePath)) ; creates root folder from pdf parent folder
+	MakeWorkingFolder(ParentFolder(FilePath)) ; Root folder = parent folder
 	run, % "python " pythonFolder "PDFToImages.py " FilePath " " ImagesFolder ; images
-	run, % "python " pythonFolder "PDFToTXT.py " FilePath " " TextFolder "Unformatted.txt" ; text
+	run, % "python " pythonFolder "PDFToTXT.py " FilePath " " TextFolder ; text
 }
 MakeVideo(FilePath) {
 	FileRemoveDir, % A_AppData "\Balabolka\", 1
 	FileRemoveDir, % A_AppData "\Hunspell\", 1
 	FileCopyDir, % ApplicationsFolder "Hunspell\", % A_AppData "\Hunspell\", 1
-	MakeWorkingFolder(ParentFolder(ParentFolder(FilePath))) ; creates root folder from txt second parent folder
+	MakeWorkingFolder(ParentFolder(ParentFolder(FilePath))) ; Root folder = parent parent folder
 	TextToAudio(FilePath) ; turns text to audio
 	run, % "python " pythonFolder "AudioImageFFMPEG.py " ImagesFolder " " AudioFolder " " VideoFolder ; creates video segments then video
+}
+EasyFormatApplication() {
+    Loop, Files, %ImagesFolder%*.png
+    {
+        Gui, New, Resize ToolWindow, Close when done
+        Gui, Margin, 1, 1
+        Gui, Add, Picture, w-1 h790 x0 y0, %A_LoopFileFullPath%
+        Gui, Show, x0 y0 h790
+        WinGetPos,,, width,, A
+
+        run, % TextFolder SubStr(A_LoopFileName, 1, 3) ".txt"
+        WinWait ahk_exe notepad.exe
+        WinMove, ahk_exe notepad.exe,, %width%, 0, % 1920 - width, 1020
+
+        WinWaitClose, Close when done
+        WinClose, ahk_exe notepad.exe
+    }
 }

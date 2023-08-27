@@ -2,11 +2,9 @@ import PyPDF2
 import re
 import sys
 import os
-
-# python C:\Users\Dave\PycharmProjects\pythonProject\PDFToTextConverter\main.py C:\Users\Dave\Documents\Handbooks\Step1\California_7-2022\California_7-2022.pdf C:\Users\Dave\Documents\Handbooks\Step1\California_7-2022\Unformated.txt
+# python PDFToTXT.py <input_pdf_filepath> <output_txt_folder>
 
 def extract_text_from_pdf(pdf_file: str) -> [str]:
-    # Open the PDF file of your choice
     with open(pdf_file, 'rb') as pdf:
         reader = PyPDF2.PdfFileReader(pdf, strict=False)
         # no_pages = len(reader.pages)
@@ -18,12 +16,13 @@ def extract_text_from_pdf(pdf_file: str) -> [str]:
 
         return pdf_text
 
+
 if __name__ == '__main__':
-    pdf_filepath = str(sys.argv[1])  # pdf filepath for input, from command line
-    txt_filepath = str(sys.argv[2])  # txt filepath for output, from command line
+    pdf_filepath = str(sys.argv[1])  # input_pdf_filepath
+    txt_filepath = str(sys.argv[2])  # output_txt_folder
+    print("potato")
     extracted_text = extract_text_from_pdf(pdf_filepath)  # gets array of page's text from pdf
-    formatted_text = ""
-    count = 0
+    count = 1
     for page in extracted_text:
         # spacing:
         page = re.sub(r"\.+", r".", page)  # removes double periods
@@ -42,9 +41,9 @@ if __name__ == '__main__':
         page = re.sub(r"\n\s*\n", r"\n", page)  # removes double newline
         page = re.sub(r"\n\Z", r"", page)  # removes newline at the end of page
 
-        formatted_text += page + "\n\n\n"  # inserts each page will 2 blank lines between
+        os.makedirs(txt_filepath, exist_ok=True)  # makes sure there is a folder for the text files
+        with open(txt_filepath + str(count).rjust(3, "0") + ".txt", "w", encoding='utf-8') as f:
+            f.write(page)  # makes txt file for each page
+        print(page)
+        print("Page text formatted: " + str(count).rjust(3, "0"))
         count += 1
-        print("Page text formatted: " + str(count))
-    os.makedirs(os.path.dirname(txt_filepath), exist_ok=True)  # makes sure there is a folder for the text file
-    with open(txt_filepath, "w", encoding='utf-8') as f:
-        f.write(formatted_text)  # makes the txt file with the formatted text from all the pages

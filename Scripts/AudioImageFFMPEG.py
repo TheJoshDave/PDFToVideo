@@ -2,6 +2,7 @@ import os
 import math
 import re
 import sys
+# python AudioImageFFMPEG.py <input_images_folder> <input_audio_folder> <output_video_folder>
 image_folder = ""  # global folder path
 audio_folder = ""  # global folder path
 video_folder = ""  # global folder path
@@ -28,11 +29,11 @@ def make_videos():
 
 
 def merge_videos(folder):
-    with open('join_video.txt', 'w') as f:
+    with open('../join_video.txt', 'w') as f:
         for filename in os.listdir(folder):
             f.write('file ' + os.path.join(folder, filename).replace("\\", "/") + "\n")
     os.system('ffmpeg -safe 0 -f concat -i join_video.txt -c:v h264_nvenc -y ' + folder + 'Completed.mp4')
-
+    os.remove('join_video.txt')
 
 if __name__ == '__main__':
     image_folder = str(sys.argv[1])  # r"C:\Users\Dave\Documents\Handbooks\Step1\California_7-2022\Images\\"
