@@ -1,0 +1,455 @@
+
+I0,1,"Software\Balabolka",""
+I0,1,"Software\Balabolka","InstLang"
+Q0,"D:\Mess\Balabolka\balabolka.exe",0
+Q0,"D:\Mess\Balabolka\uninstall.log",0
+Q0,"D:\Mess\Balabolka\uninstall.exe",0
+Q0,"D:\Mess\Balabolka\lame_enc.dll",0
+Q0,"D:\Mess\Balabolka\libeay32.dll",0
+Q0,"D:\Mess\Balabolka\libgcc_s_sjlj-1.dll",0
+Q0,"D:\Mess\Balabolka\libogg-0.dll",0
+Q0,"D:\Mess\Balabolka\libopus-0.dll",0
+Q0,"D:\Mess\Balabolka\libopusfile-0.dll",0
+Q0,"D:\Mess\Balabolka\libopusurl-0.dll",0
+Q0,"D:\Mess\Balabolka\libsamplerate.dll",0
+Q0,"D:\Mess\Balabolka\libwinpthread-1.dll",0
+Q0,"D:\Mess\Balabolka\ogg.dll",0
+Q0,"D:\Mess\Balabolka\ssleay32.dll",0
+Q0,"D:\Mess\Balabolka\vorbis.dll",0
+Q0,"D:\Mess\Balabolka\vorbisenc.dll",0
+Q0,"D:\Mess\Balabolka\vorbisfile.dll",0
+Q0,"D:\Mess\Balabolka\help\Czech.chm",0
+V0,"D:\Mess\Balabolka\help",2
+Q0,"D:\Mess\Balabolka\help\English.chm",0
+Q0,"D:\Mess\Balabolka\help\French.chm",0
+Q0,"D:\Mess\Balabolka\help\German.chm",0
+Q0,"D:\Mess\Balabolka\help\Italian.chm",0
+Q0,"D:\Mess\Balabolka\help\Korean.chm",0
+Q0,"D:\Mess\Balabolka\help\Russian.chm",0
+Q0,"D:\Mess\Balabolka\help\Slovak.chm",0
+Q0,"D:\Mess\Balabolka\help\Spanish.chm",0
+Q0,"D:\Mess\Balabolka\help\Ukrainian.chm",0
+Q0,"D:\Mess\Balabolka\skins\Acryl.asz",0
+V0,"D:\Mess\Balabolka\skins",2
+Q0,"D:\Mess\Balabolka\skins\Air.asz",0
+Q0,"D:\Mess\Balabolka\skins\AlterMetro.asz",0
+Q0,"D:\Mess\Balabolka\skins\Android OS.asz",0
+Q0,"D:\Mess\Balabolka\skins\AutumnSky.asz",0
+Q0,"D:\Mess\Balabolka\skins\Black Box.asz",0
+Q0,"D:\Mess\Balabolka\skins\BlueGauze.asz",0
+Q0,"D:\Mess\Balabolka\skins\BlueGlass.asz",0
+Q0,"D:\Mess\Balabolka\skins\Calcium.asz",0
+Q0,"D:\Mess\Balabolka\skins\Cold.asz",0
+Q0,"D:\Mess\Balabolka\skins\DarkMetro.asz",0
+Q0,"D:\Mess\Balabolka\skins\Desert.asz",0
+Q0,"D:\Mess\Balabolka\skins\Elegant.asz",0
+Q0,"D:\Mess\Balabolka\skins\Flatline.asz",0
+Q0,"D:\Mess\Balabolka\skins\FM.asz",0
+Q0,"D:\Mess\Balabolka\skins\GPlus.asz",0
+Q0,"D:\Mess\Balabolka\skins\Graphite.asz",0
+Q0,"D:\Mess\Balabolka\skins\GrayPlastic.asz",0
+Q0,"D:\Mess\Balabolka\skins\iOS dark.asz",0
+Q0,"D:\Mess\Balabolka\skins\Light Board.asz",0
+Q0,"D:\Mess\Balabolka\skins\LongHorn.asz",0
+Q0,"D:\Mess\Balabolka\skins\Lucky.asz",0
+Q0,"D:\Mess\Balabolka\skins\MacOS2.asz",0
+Q0,"D:\Mess\Balabolka\skins\MetroUI.asz",0
+Q0,"D:\Mess\Balabolka\skins\Mint.asz",0
+Q0,"D:\Mess\Balabolka\skins\Moonlight.asz",0
+Q0,"D:\Mess\Balabolka\skins\NeonNight.asz",0
+Q0,"D:\Mess\Balabolka\skins\Neutral.asz",0
+Q0,"D:\Mess\Balabolka\skins\NextAlpha.asz",0
+Q0,"D:\Mess\Balabolka\skins\Notes Wood.asz",0
+Q0,"D:\Mess\Balabolka\skins\Office2003.asz",0
+Q0,"D:\Mess\Balabolka\skins\Office2007 Black.asz",0
+Q0,"D:\Mess\Balabolka\skins\Office2007 Blue.asz",0
+Q0,"D:\Mess\Balabolka\skins\Office2010 Blue.asz",0
+Q0,"D:\Mess\Balabolka\skins\Opus.asz",0
+Q0,"D:\Mess\Balabolka\skins\Sand.asz",0
+Q0,"D:\Mess\Balabolka\skins\Sapphire.asz",0
+Q0,"D:\Mess\Balabolka\skins\Snow Leopard.asz",0
+Q0,"D:\Mess\Balabolka\skins\Subway.asz",0
+Q0,"D:\Mess\Balabolka\skins\Topaz.asz",0
+Q0,"D:\Mess\Balabolka\skins\Vienna.asz",0
+Q0,"D:\Mess\Balabolka\skins\WEB.asz",0
+Q0,"D:\Mess\Balabolka\skins\WLM.asz",0
+Q0,"D:\Mess\Balabolka\skins\XPLuna.asz",0
+Q0,"D:\Mess\Balabolka\skins\XPSilver.asz",0
+Q0,"D:\Mess\Balabolka\skins\Zest.asz",0
+Q0,"D:\Mess\Balabolka\sounds\error.wav",0
+V0,"D:\Mess\Balabolka\sounds",2
+Q0,"D:\Mess\Balabolka\sounds\finish.wav",0
+Q0,"D:\Mess\Balabolka\sounds\timer.wav",0
+Q0,"D:\Mess\Balabolka\utils\7z.dll",0
+V0,"D:\Mess\Balabolka\utils",2
+Q0,"D:\Mess\Balabolka\utils\bass.dll",0
+Q0,"D:\Mess\Balabolka\utils\chsdet.dll",0
+Q0,"D:\Mess\Balabolka\utils\freetype6.dll",0
+Q0,"D:\Mess\Balabolka\utils\hunspell.dll",0
+Q0,"D:\Mess\Balabolka\utils\iconv.dll",0
+Q0,"D:\Mess\Balabolka\utils\intl.dll",0
+Q0,"D:\Mess\Balabolka\utils\lame.exe",0
+Q0,"D:\Mess\Balabolka\utils\libcairo-2.dll",0
+Q0,"D:\Mess\Balabolka\utils\libcroco-0.6-3.dll",0
+Q0,"D:\Mess\Balabolka\utils\libexpat-1.dll",0
+Q0,"D:\Mess\Balabolka\utils\libfontconfig-1.dll",0
+Q0,"D:\Mess\Balabolka\utils\libgdk_pixbuf-2.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libgio-2.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libglib-2.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libgmodule-2.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libgobject-2.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libgthread-2.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libjpeg.dll",0
+Q0,"D:\Mess\Balabolka\utils\libpango-1.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libpangocairo-1.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libpangoft2-1.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libpangowin32-1.0-0.dll",0
+Q0,"D:\Mess\Balabolka\utils\libpng14-14.dll",0
+Q0,"D:\Mess\Balabolka\utils\librsvg-2-2.dll",0
+Q0,"D:\Mess\Balabolka\utils\libxml2-2.dll",0
+Q0,"D:\Mess\Balabolka\utils\libz.dll",0
+Q0,"D:\Mess\Balabolka\utils\MMConverterCon.exe",0
+Q0,"D:\Mess\Balabolka\utils\mp4chaps.exe",0
+Q0,"D:\Mess\Balabolka\utils\mp4lib.dll",0
+Q0,"D:\Mess\Balabolka\utils\MultimediaConverter.dll",0
+Q0,"D:\Mess\Balabolka\utils\neroAacEnc.exe",0
+Q0,"D:\Mess\Balabolka\utils\neroAacTag.exe",0
+Q0,"D:\Mess\Balabolka\utils\opusenc.exe",0
+Q0,"D:\Mess\Balabolka\utils\pdf2blb.dll",0
+Q0,"D:\Mess\Balabolka\utils\pdfimages.exe",0
+Q0,"D:\Mess\Balabolka\utils\syllable.dll",0
+Q0,"D:\Mess\Balabolka\utils\syspin.exe",0
+Q0,"D:\Mess\Balabolka\utils\viewer.exe",0
+Q0,"D:\Mess\Balabolka\utils\zlib1.dll",0
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\balabolka.cfg",0
+V0,"C:\Users\Dave\AppData\Roaming\Balabolka",2
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\balabolka.dat",0
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\viewer.cfg",0
+Q0,"D:\Mess\Balabolka\languages\Arabic.lng",0
+V0,"D:\Mess\Balabolka\languages",2
+Q0,"D:\Mess\Balabolka\languages\Armenian.lng",0
+Q0,"D:\Mess\Balabolka\languages\Bulgarian.lng",0
+Q0,"D:\Mess\Balabolka\languages\Catalan.lng",0
+Q0,"D:\Mess\Balabolka\languages\Chinese (Simplified).lng",0
+Q0,"D:\Mess\Balabolka\languages\Chinese (Traditional).lng",0
+Q0,"D:\Mess\Balabolka\languages\Croatian.lng",0
+Q0,"D:\Mess\Balabolka\languages\Czech.lng",0
+Q0,"D:\Mess\Balabolka\languages\Dutch.lng",0
+Q0,"D:\Mess\Balabolka\languages\Filipino.lng",0
+Q0,"D:\Mess\Balabolka\languages\Finnish.lng",0
+Q0,"D:\Mess\Balabolka\languages\French.lng",0
+Q0,"D:\Mess\Balabolka\languages\German.lng",0
+Q0,"D:\Mess\Balabolka\languages\Greek.lng",0
+Q0,"D:\Mess\Balabolka\languages\Hungarian.lng",0
+Q0,"D:\Mess\Balabolka\languages\Italian.lng",0
+Q0,"D:\Mess\Balabolka\languages\Japanese.lng",0
+Q0,"D:\Mess\Balabolka\languages\Korean.lng",0
+Q0,"D:\Mess\Balabolka\languages\Polish.lng",0
+Q0,"D:\Mess\Balabolka\languages\Portuguese (Brazil).lng",0
+Q0,"D:\Mess\Balabolka\languages\Portuguese (Portugal).lng",0
+Q0,"D:\Mess\Balabolka\languages\Romanian.lng",0
+Q0,"D:\Mess\Balabolka\languages\Russian.lng",0
+Q0,"D:\Mess\Balabolka\languages\sample.txt",0
+Q0,"D:\Mess\Balabolka\languages\Serbian (Cyrillic).lng",0
+Q0,"D:\Mess\Balabolka\languages\Serbian (Latin).lng",0
+Q0,"D:\Mess\Balabolka\languages\Slovak.lng",0
+Q0,"D:\Mess\Balabolka\languages\Slovenian.lng",0
+Q0,"D:\Mess\Balabolka\languages\Spanish.lng",0
+Q0,"D:\Mess\Balabolka\languages\Turkish.lng",0
+Q0,"D:\Mess\Balabolka\languages\Ukrainian.lng",0
+Q0,"D:\Mess\Balabolka\languages\Vietnamese.lng",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Copy.bmp",0
+V0,"D:\Mess\Balabolka\resources",2
+V0,"D:\Mess\Balabolka\resources\16",2
+V0,"D:\Mess\Balabolka\resources\16\disabled",2
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Cut.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Delete.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Go to Quick Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Images.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Make Lowercase.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Make Uppercase.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Paste.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Pause.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Pronunciation.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Read Aloud.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Read Clipboard Aloud.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Read Selected Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Spell Checking.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Stop.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\disabled\Undo.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Add Current Line as Named Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Audio Clip.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Audio Files.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Audio Output.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Batch File Converter.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Buttons.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Check for Update.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Clear History.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Clipboard Watch.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Close All Except Current.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Close All.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Close.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Compare Two Files.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Configure Voice.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Copy.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Create Table of Contents.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Cut.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Decrease Rate.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Delete.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Direct Speech.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Download Subtitles.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Extract Text from Files.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\File Splitter.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Find Homographs.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Find Names In Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Find Pairs of Rules.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Find.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Font and Colors.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Foreign Words.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Format Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Full Screen.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Go to Named Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Go to Next Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Go to Previous Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Go to Quick Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Help.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\ID3 Tags.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Images.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Increase Rate.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Insert Named Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Insert Quick Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Insert XML Tag.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\List of Spelling Errors.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Lower Pitch.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Magnifier.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Make Lowercase.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Make Uppercase.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\New.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Open.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Panel of Dictionaries.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Paste.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Pause.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Profiles.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Pronunciation.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Raise Pitch.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Read Aloud.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Read Clipboard Aloud.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Read Selected Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Remove All XML Tags.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Repeat Forever.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Replace Numbers with Words.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Replace.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Replacement Statistics.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Reset Rate and Pitch.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Save All.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Save As.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Save Audio File (TTS).bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Save Audio File.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Save.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Settings.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Skins.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Skip to Next Line.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Skip to Next Paragraph.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Skip to Previous Line.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Skip to Previous Paragraph.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Spell Checker.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Spell Checking.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Split and Convert (Not Show Window).bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Split and Convert to Audio Files.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Spritz-Reader.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Stop.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Subtitle Converter.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Subtitle Preview.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Text Import.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Timer.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Translate.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Turn Volume Down.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Turn Volume Up.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\Undo.bmp",0
+Q0,"D:\Mess\Balabolka\resources\16\View Changed Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Copy.bmp",0
+V0,"D:\Mess\Balabolka\resources\24",2
+V0,"D:\Mess\Balabolka\resources\24\disabled",2
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Cut.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Delete.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Go to Quick Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Images.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Make Lowercase.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Make Uppercase.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Paste.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Pause.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Pronunciation.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Read Aloud.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Read Clipboard Aloud.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Read Selected Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Spell Checking.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Stop.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\disabled\Undo.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Add Current Line as Named Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Audio Clip.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Audio Files.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Audio Output.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Batch File Converter.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Buttons.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Check for Update.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Clear History.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Clipboard Watch.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Close All Except Current.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Close All.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Close.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Compare Two Files.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Configure Voice.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Copy.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Create Table of Contents.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Cut.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Decrease Rate.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Delete.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Direct Speech.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Download Subtitles.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Extract Text from Files.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\File Splitter.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Find Homographs.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Find Names in Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Find Pairs of Rules.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Find.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Font and Colors.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Foreign Words.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Format Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Full Screen.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Go to Named Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Go to Next Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Go to Previous Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Go to Quick Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Help.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\ID3 Tags.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Images.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Increase Rate.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Insert Named Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Insert Quick Bookmark.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Insert XML Tag.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\List of Spelling Errors.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Lower Pitch.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Magnifier.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Make Lowercase.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Make Uppercase.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\New.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Open.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Panel of Dictionaries.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Paste.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Pause.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Profiles.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Pronunciation.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Raise Pitch.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Read Aloud.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Read Clipboard Aloud.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Read Selected Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Remove All XML Tags.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Repeat Forever.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Replace Numbers with Words.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Replace.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Replacement Statistics.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Reset Rate and Pitch.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Save All.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Save As.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Save Audio File (TTS).bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Save Audio File.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Save.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Settings.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Skins.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Skip to Next Line.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Skip to Next Paragraph.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Skip to Previous Line.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Skip to Previous Paragraph.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Spell Checker.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Spell Checking.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Split and Convert (Not Show Window).bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Split and Convert to Audio Files.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Spritz-Reader.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Stop.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Subtitle Converter.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Subtitle Preview.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Text Import.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Timer.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Translate.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Turn Volume Down.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Turn Volume Up.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\Undo.bmp",0
+Q0,"D:\Mess\Balabolka\resources\24\View Changed Text.bmp",0
+Q0,"D:\Mess\Balabolka\resources\ErrorCodes.xml",0
+Q0,"D:\Mess\Balabolka\resources\Translate.xml",0
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\dict\English.hmg",0
+V0,"C:\Users\Dave\AppData\Roaming\Balabolka\dict",2
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\dict\French.hmg",0
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\dict\German.hmg",0
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\dict\Russian Nicolai (SAPI4).hmg",0
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\dict\Russian Olga.hmg",0
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\dict\sample.bxd",0
+V0,"C:\Users\Dave\Documents\Balabolka",2
+Q0,"C:\Users\Dave\Documents\Balabolka\English.hmg",0
+Q0,"C:\Users\Dave\Documents\Balabolka\French.hmg",0
+Q0,"C:\Users\Dave\Documents\Balabolka\German.hmg",0
+Q0,"C:\Users\Dave\Documents\Balabolka\Russian Nicolai (SAPI4).hmg",0
+Q0,"C:\Users\Dave\Documents\Balabolka\Russian Olga.hmg",0
+Q0,"C:\Users\Dave\Documents\Balabolka\sample.bxd",0
+Q0,"C:\Users\Dave\AppData\Roaming\Balabolka\balabolka.echo",0
+N0,"C:\Users\Dave\AppData\Roaming\Balabolka\balabolka.cfg",Settings,Language
+N0,"C:\Users\Dave\AppData\Roaming\Balabolka\balabolka.cfg",Settings,ReplaceNumberLang
+N0,"C:\Users\Dave\AppData\Roaming\Balabolka\balabolka.cfg",Settings,ShowPanel
+N0,"C:\Users\Dave\AppData\Roaming\Balabolka\balabolka.cfg",Settings,HMGFiles
+I0,2,"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\balabolka.exe",""
+I0,2,"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\balabolka.exe","default"
+I0,1,"Software\Balabolka","ShellMenu"
+I0,1,"Software\Balabolka","ShellSubMenu"
+I0,1,"Software\Balabolka","ShellMenuCommand"
+I0,1,"Software\Balabolka","ShellName"
+I0,1,"Software\Balabolka","ShellOpen"
+I0,1,"Software\Balabolka","ShellRead"
+I0,1,"Software\Balabolka","ShellOpenHelp"
+I0,1,"Software\Balabolka","ShellReadHelp"
+I0,1,"Software\Balabolka","ShellConvert"
+I0,1,"Software\Balabolka","ShellConvertHelp"
+V0,"C:\Users\Dave\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Balabolka",2
+Q0,"C:\Users\Dave\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Balabolka\Balabolka.lnk",0
+Q0,"C:\Users\Dave\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Balabolka\Help.lnk",0
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka",""
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","UninstallString"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","DisplayName"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","DisplayIcon"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","DisplayVersion"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","HelpLink"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","InstallLocation"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","Publisher"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","URLInfoAbout"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","EstimatedSize"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","NoModify"
+I0,2,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Balabolka","NoRepair"
+I0,0,".bxt",""
+I0,0,".bxt","default"
+I0,0,"bxtfile",""
+I0,0,"bxtfile\DefaultIcon",""
+I0,0,"bxtfile\DefaultIcon","default"
+I0,0,"bxtfile\Shell",""
+I0,0,"bxtfile\Shell\Open",""
+I0,0,"bxtfile\Shell\Open\command",""
+I0,0,"bxtfile\Shell\Open\command","default"
+I0,1,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.bxt",""
+I0,1,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.bxt\UserChoice",""
+I0,1,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.bxt\UserChoice","Progid"
+I0,0,"bxtfile","default"
+I0,0,"bxtfile","AlwaysShowExt"
+I0,0,"bxtfile","EditFlags"
+I0,0,".bxz",""
+I0,0,".bxz","default"
+I0,0,"bxzfile",""
+I0,0,"bxzfile\DefaultIcon",""
+I0,0,"bxzfile\DefaultIcon","default"
+I0,0,"bxzfile\Shell",""
+I0,0,"bxzfile\Shell\Open",""
+I0,0,"bxzfile\Shell\Open\command",""
+I0,0,"bxzfile\Shell\Open\command","default"
+I0,1,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.bxz",""
+I0,1,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.bxz\UserChoice",""
+I0,1,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.bxz\UserChoice","Progid"
+I0,0,"bxzfile","default"
+I0,0,"bxzfile","AlwaysShowExt"
+I0,0,"bxzfile","EditFlags"
