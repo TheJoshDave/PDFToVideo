@@ -1,4 +1,4 @@
-﻿#SingleInstance Force
+#SingleInstance Force
 SetTitleMatchMode, 2
 Global VideoFolder := A_ScriptDir "\Video\"
 Global AudioFolder := A_ScriptDir "\Audio\"
@@ -101,7 +101,7 @@ MakeVideo(FilePath) {
 	MakeWorkingFolder(ParentFolder(ParentFolder(FilePath))) ; Root folder = parent parent folder
 	TextToAudio(FilePath) ; turns text to audio
 	run, % "python " pythonFolder "AudioImageFFMPEG.py " ImagesFolder " " AudioFolder " " VideoFolder ; creates video segments then video
-}
+} ; only handles one txt file with pages seperated by double lines
 EasyFormatApplication() {
     Loop, Files, %ImagesFolder%*.png
     {
