@@ -41,4 +41,3 @@ def configure_folders(pdf_filepath: str):
     return png_folder, mp3_folder, mp4_folder, txt_folder, root_folder
 
 
-configure_folders(r"C:\Users\Dave\Documents\Handbooks\Completed\Pennsylvania_4-2021\Pennsylvania.pdf")

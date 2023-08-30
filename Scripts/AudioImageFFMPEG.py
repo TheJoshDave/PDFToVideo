@@ -58,7 +58,7 @@ if __name__ == '__main__':
     except: pdf_filepath = input("pdf_filepath: ")
     png_folder, mp3_folder, mp4_folder, txt_folder, root_folder = tools.configure_folders(pdf_filepath)
 
-    #make_videos(png_folder, mp3_folder, mp4_folder)
-    #merge_videos(mp4_folder)
+    make_videos(png_folder, mp3_folder, mp4_folder)
+    merge_videos(mp4_folder)
     make_description(mp3_folder, mp4_folder, input("State: "), input("Year: "), input("Month: "), input("Day: "))
 
