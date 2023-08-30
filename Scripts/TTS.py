@@ -1,7 +1,9 @@
 from gtts import gTTS
 import sys
 import pyttsx3
-#python TTS.py <input_txt_filepath> <output_mp3_filepath>
+import tools
+import os
+# python TTS.py <input_pdf_filepath>
 
 
 def basicgTTS(inputText, outputFilepath):
@@ -19,13 +21,18 @@ def basicpyttsx3(inputText, outputFilepath, rate=100, voice=1):
 
 
 if __name__ == '__main__':
-    txt_filepath = str(sys.argv[1])  # input_txt_filepath
-    outputFilepath = str(sys.argv[2])  # output_mp3_filepath
-    with open(txt_filepath, "r", encoding='utf-8') as file:
-        inputText = file.read()
+    try: pdf_filepath = str(sys.argv[1]) # input_pdf_filepath
+    except: pdf_filepath = input("pdf_filepath: ")
+    png_folder, mp3_folder, mp4_folder, txt_folder, root_folder = tools.configure_folders(pdf_filepath)
 
-    print(txt_filepath)
-    print(outputFilepath)
-    #basicgTTS(inputText, outputFilepath)
-    basicpyttsx3(inputText, outputFilepath, 140)
+    for txt_num in range(len(os.listdir(txt_folder))):
+        input_txt_filepath = txt_folder + os.listdir(txt_folder)[txt_num]
+        output_mp3_filepath = mp3_folder + str(txt_num).rjust(3, "0") + ".mp3"
+        with open(input_txt_filepath, "r", encoding='utf-8') as file:
+            inputText = file.read()
+
+        print("Reading: " + input_txt_filepath)
+        print("Writing: " + output_mp3_filepath)
+        basicpyttsx3(inputText, output_mp3_filepath, 140)
+        #basicgTTS(inputText, outputFilepath)
 
