@@ -4,7 +4,4 @@
     <option name="defaultAhkSdk" value="AutoHotkey v1.1.33" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (PDFToConverter)" project-jdk-type="Python SDK" />
-  <component name="PyPackaging">
-    <option name="earlyReleasesAsUpgrades" value="true" />
-  </component>
 </project>

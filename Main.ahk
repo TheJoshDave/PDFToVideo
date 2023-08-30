@@ -61,6 +61,10 @@ MakeWorkingFolder(Folder) {
 	Global AudioFolder := Folder "\Audio\"
 	Global ImagesFolder := Folder "\Images\"
 	Global TextFolder := Folder "\Text\"
+	FileCreateDir, % VideoFolder
+	FileCreateDir, % AudioFolder
+	FileCreateDir, % ImagesFolder
+	FileCreateDir, % TextFolder
 }
 ParentFolder(Path) {
 	return SubStr(Path, 1, InStr(SubStr(Path,1,-1), "\", 0, 0)-1)
@@ -101,17 +105,21 @@ MakeVideo(FilePath) {
 EasyFormatApplication() {
     Loop, Files, %ImagesFolder%*.png
     {
+        txt_filepath := TextFolder SubStr(A_LoopFileName, 1, 3) ".txt"
+        mp3_filepath := AudioFolder SubStr(A_LoopFileName, 1, 3) ".mp3"
         Gui, New, Resize ToolWindow, Close when done
         Gui, Margin, 1, 1
         Gui, Add, Picture, w-1 h790 x0 y0, %A_LoopFileFullPath%
         Gui, Show, x0 y0 h790
         WinGetPos,,, width,, A
 
-        run, % TextFolder SubStr(A_LoopFileName, 1, 3) ".txt"
+        run, % txt_filepath
         WinWait ahk_exe notepad.exe
         WinMove, ahk_exe notepad.exe,, %width%, 0, % 1920 - width, 1020
 
         WinWaitClose, Close when done
         WinClose, ahk_exe notepad.exe
+        RunWait, % "python " pythonFolder "TTS.py " txt_filepath " " mp3_filepath
     }
+    run, % "python " pythonFolder "AudioImageFFMPEG.py " ImagesFolder " " AudioFolder " " VideoFolder ; creates video segments then video
 }
